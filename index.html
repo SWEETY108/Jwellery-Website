@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Jewellery Website</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+     <!--scroll reveal link-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+
+        <div class="container">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="image">
+                <img src="img/news.png" alt="">
+                <div class="model-c">
+                <h2>subscribe newsletter</h2>
+                <p>stay updated with the latest trends and exclusive offers on our exquisite jewellery collection</p>
+                <form action="">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+            </div>
+           
+        </div>
+
+    </div>
+    
+    
+    <!-- header section starts -->
+    <header>
+
+        <div class="header-top">
+            <div class="alert">
+                <p>
+                    <b>Celebrate with Diamonds</b>-upto 20% off*
+                </p>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <a href="#" class="logo"> <i class="fas fa-gem"></i> GleamAura</a>
+
+           <div class="search-box">
+            <input type="text" placeholder="Search......">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+           </div>
+
+            <div class="icons">
+                <button class="action-btn">
+                    <a href="#" class="fas fa-user"></a>
+                </button>
+                <button class="action-btn">
+                    <a href="#" class="fas fa-heart"></a>
+                    <span class="count">0</span>
+                </button>
+                <button class="action-btn">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <span class="count">0</span>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+ 
+    
+
+    <!--video slider-->
+    <div class="video-slider">
+        <video autoplay muted id="video1" class="video1">
+            <source src="video/diamond.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted id="video2" class="video2">
+            <source src="video/green.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted id="video3" class="video3">
+            <source src="video/all.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <!-- Assurance-->
+    <section class="feature-section">
+            <div class="feature-flexbox">
+                
+                <div class="feature-column">
+                    <img src="img/a1.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">Purity Guarantee</h2>
+                    <p class="feature-paragraph">Guaranteeing 100% pure, certified, and high-quality jewelry</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="feature-column">
+                    <img src="img/a2.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">Lifetime Exchange</h2>
+                    <p class="feature-paragraph">Exchange your old designs anytime</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="feature-column">
+                    <img src="img/a3.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">Worldwide Delivery</h2>
+                    <p class="feature-paragraph">Receive your order faster than ever before!</p>
+                </div>
+             
+            </div>
+
+            <div class="feature-flexbox2">
+                
+                <div class="feature-column">
+                    <img src="img/a4.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">Certified Jewellery</h2>
+                    <p class="feature-paragraph">Our jewellery always comes with certificate of aunthentication.</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="feature-column">
+                    <img src="img/a5.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">100% Transparency</h2>
+                    <p class="feature-paragraph">From sourcing to pricing, every detail, crystal clear.</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="feature-column">
+                    <img src="img/a6.png" loading="lazy" alt="Feature Icon" class="feature-image"/>
+                    <h2 class="feature-heading">15 days Money-Back</h2>
+                    <p class="feature-paragraph">get 100% refund if you don't like your jewellery.</p>
+                </div>
+             
+            </div>
+    </section>
+        
+         
+    <!-- home section -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide" style="background-image: url('img/4.png');"></div>
+            <div class="slide" style="background-image: url('img/5.png');"></div>
+            <div class="slide" style="background-image: url('img/1.png');"></div>
+            <div class="slide" style="background-image: url('img/3.png');"></div>
+            <div class="slide" style="background-image: url('img/2.png');"></div>
+        </div>
+    </section>
+    
+       
+    
+    <!-- collection section  -->
+    <section class="collection">
+            <h1 class="head-c">SHOP BY COLLECTION </h1>
+            <div class="Horizontal-line"></div>
+            <div class="collections">
+                <!-- Card 1: Earrings -->
+                <div class="collection-card">
+                    <img src="img/e.jpg" alt="Necklaces">
+                    <div class="gradient-overlay"></div>
+                    <div class="card-border">
+                    <div class="card-border-bottom-line"></div>
+                    <div class="card-border-bottom-line"></div>
+                    <div class="content">
+                        <div><h1>Check Collections</h1></div>
+                        <div><p>Enhance your elegance with our Earrings</p></div>
+                        <a href="necklaces.html" class="view">View More</a>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- Card 2: Bracelets -->
+                <div class="collection-card">
+                    <img src="img/b.jpg" alt="Necklaces">
+                    <div class="gradient-overlay"></div>
+                    <div class="card-border">
+                    <div class="card-border-bottom-line"></div>
+                    <div class="card-border-bottom-line"></div>
+                    <div class="content">
+                        <div><h1>Check Collections</h1></div>
+                        <div><p>Unique bracelets crafted by skilled artisans</p></div>
+                        <a href="necklaces.html" class="view">View More</a>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- Card 3: Necklaces -->
+                <div class="collection-card">
+                    <img src="img/n.png" alt="Necklaces">
+                    <div class="gradient-overlay"></div>
+                    <div class="card-border">
+                    <div class="card-border-bottom-line"></div>
+                    <div class="card-border-bottom-line"></div>
+                    <div class="content">
+                        <div><h1>Check Collections</h1></div>
+                        <div><p>Our neckless is a blend of charm & beauty</p></div>
+                        <a href="necklaces.html" class="view">View More</a>
+                    </div>
+                </div>
+                </div>
+        
+            </div>
+    </section>
+    
+    <!--carousel-->
+    <section class="Feature-collection"> 
+               <h1>FEATURED COLLECTION </h1>
+             <div class="Horizontal-line2"></div>
+            <button class="pre-btn"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="nxt-btn"><i class="fa-solid fa-angle-right"></i></button>
+             <div class="f-collect"> 
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/ring.jpg" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/ring 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Eternal Radiance Diamond Ring</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/neck.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/neck 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Flutter And Floral Kids Necklace</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>35,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>41,067</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/ear.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/ear 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Excited Leaflet drop earing</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>60,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>71,045</span> </p>
+                </div>
+                
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/ear 2.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/ear 2 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Romantic joy earing</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/bracelet.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/bracelet 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Gold Tone twisted Bracelet</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/mangal.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/mangal 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Gandharika mangalsutra</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+    
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/nose.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/nose 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Flora Nose pin</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/ear 3 .png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/ear 3 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Hoop Earing</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/bengle.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/bengle 2 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Aasna Bangle</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/neck 2.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/neck 2 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Nicole Necklace</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/ear 4.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/ear 4 ed.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Plated Drop Earing</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                <div class="collect">
+                    <div class="F-container"> 
+                        <div class="image"><img src="img/bracelet 2.png" alt=""></div>
+                        <div class="overlay"></div>
+                        <div class="imageup"><img src="img/bracelet 2 3d.png" alt=""></div>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i> ADD TO CART</a>
+                    </div>
+                    <h2>Gold Plated Bangle</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>40,893  <span><i class="fa-solid fa-indian-rupee-sign"></i>43,045</span> </p>
+                </div>
+                
+            </div>
+    </section>
+    
+    
+    <!--new arrival-->
+    <section>
+            <div class="new-arrivals">
+                <h1>NEW FOR YOU!</h1>
+                <h4>Our Latest Releases, just for you!</h4>
+                <div class="cards">
+                    <div class="card">
+                        <img src="new img/jw.jpg" alt="Jewelry 1" class="main-image">
+                        <img src="new img/jw g1.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 1.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 1.1.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 2.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 2.2.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 3.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 3.3.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 4.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 4.4.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 5.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 5.5.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 11.jpg" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 11.11.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 6.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 6.6.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 7.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 7.7.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 8.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 8.8.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 10.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 10.10.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="new img/new 12.png" alt="Jewelry 1" class="main-image">
+                        <img src="new img/new 12.12.png" alt="Jewelry on Woman 1" class="hover-image">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-bag"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+        
+    <!--Gift-->
+    <section class="multi-container">
+            <h1>Gift Of choice</h1>
+            <div class="horizontal-line2"></div>
+            <div class="GIFT">
+                <div class="gift1"> 
+                    <div class="offer">
+                        <div class="offer1">
+                            <div class="image">
+                                <img src="img/gl1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="offer1">
+                            <div class="image">
+                            <img src="img/3.png" alt="">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gift2"> 
+                    <div class="giftcard">
+                        <div class="bg-img">
+                            <img class="img" src="img/gift.png" alt="">
+                            <img class="left"src="img/gift2.png" alt="">
+                            <img class="right" src="img/gift1.png" alt="">
+                            <div class="gift-wrap">
+                                <a><img src="img/g1.png" alt=""></a>
+                                <a><img src="img/g2.png" alt=""></a>
+                                <a><img src="img/g3.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="offer">
+                        <div class="offer1"><!--trending-item-->
+                            <div class="image">
+                                <img src="img/gl2.jpg" alt="">
+                            </div>
+                        </div>
+                  </div>
+             </div>
+         </div>
+    </section>
+        
+    <!--Gold-->
+    <section class="gold-section">
+        <div class="carousel-container">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="content-container">
+                    <img src="img/g name.png">
+                  <h2>Monthly Gold Installment Plans</h2>
+                  <p>Save for your dream jewelry with <br>our easy and flexible monthly installment plans.<br>Start today and make every moment golden!</p>
+                  <button>Know More</button>
+                </div>
+              </div>
+              <div class="carousel-item2">
+                <div class="content-container">
+                  <img src="img/g name.png">
+                  <h2>Exclusive Gold Exchange Offer</h2>
+                  <p>Upgrade your old gold jewelry to new designs with our special gold exchange program. Enjoy the best market value and flexible monthly installment plans.</p>
+                  <button>Know More</button>
+                </div>
+              </div>
+              <div class="carousel-item3">
+                <div class="content-container">
+                    <img src="img/g name.png">
+                  <h2>Special Gold Coins Collection</h2>
+                  <p>Crafted With Elegance, Treasured for Generations!</p>
+                  <button>Know More</button>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+    </section>
+    
+    
+    <!--Testimonials-->
+    <section class="clip-card">
+         <h1>CUSTOMER REVIEWS</h1>
+         <div class="horizontal-line3"></div>
+         <div class="clip-card-wrap">
+            <div class="clip-card-line">
+                <div class="clip-slide">
+                    <div class="card-img">
+                        <a><img src="img/c1.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Akanksha</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line2">
+                <div class="clip-slide2">
+                    <div class="card-img">
+                        <a><img src="img/c2.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Avni</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line">
+                <div class="clip-slide">
+                    <div class="card-img">
+                        <a><img src="img/c6.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Suraj</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line2">
+                <div class="clip-slide2">
+                    <div class="card-img">
+                        <a><img src="img/c5.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Diksha</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line">
+                <div class="clip-slide">
+                    <div class="card-img">
+                        <a><img src="img/c3.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Nutan</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line2">
+                <div class="clip-slide2">
+                    <div class="card-img">
+                        <a><img src="img/c4.jpg" alt=""></a>
+                    </div>
+                    <div class="card-title">Aaradhya</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+            <div class="clip-card-line">
+                <div class="clip-slide">
+                    <div class="card-img">
+                        <a><img src="img/T1.png" alt=""></a>
+                    </div>
+                    <div class="card-title">Akshara</div>
+                    <div class="card-dis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptas, sapiente, sit totam reiciendis magni repudiandae amet repellendus sunt ea ut? in quas!</div>
+                     <div class="pin">
+                        <img src="img/pin.png">
+                     </div>
+                </div>
+            </div>
+         </div>
+    </section>  
+    
+    
+    <!--Contact-->
+    <section>
+        <div class="connect">
+            <h1>CONNECT WITH US!</h1>
+            <h4>We Are Always Available To Guide You At Your Convenience</h4>
+        </div>
+        <div class="c-bg">
+            <img src="img/c-bg.png" alt="">
+        </div>
+        <div class="c-set">
+        <div class="connect-card">
+            <div class="wp">
+                <h5>Connect On</h5>
+                <h3>WhatsApp</h3>
+                <button>Connect <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="connect-card">
+            <div class="location">
+                <h5>Book an</h5>
+                <h3>Appointment</h3>
+                <button>Book <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="connect-card">
+            <div class="vc">
+                <h5>Schedule a</h5>
+                <h3>Video call</h3>
+                <button>Schedule <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!--Newlestter-->
+    <section class="newsletter-section">
+        <div class="overlay"></div>
+            <div class="newsletter-flexbox">
+                <div class="newsletter-content-wrapper">
+                    <h2>Subscribe to our newsletter</h2>
+                    <div class="text">Be the first to know about new collections and exclusive offers.</div>
+                </div>
+                <div class="newsletter-form">
+                    <div class="search_wrap">
+                        <div class="search_box">
+                            <input type="text" class="input" placeholder="search...">
+                            <div class="btn">
+                                <p>SUBSCRIBE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+        
+    <!-- footer section -->
+    <footer class="footer">
+                    <div class="footer-flexbox">
+                        <div class="footer-column">
+                            <div class="footer-header-wrapper">
+                                <div class="footer-header">quick links</div>
+                                <div class="footer-line"></div>
+                            </div>
+                            <div class="footer-link">
+                                <a>Home</a>
+                                <a>About Us</a>
+                                <a>Product</a>
+                                <a>Blog</a>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-header-wrapper">
+                                <div class="footer-header">Customer Service</div>
+                                <div class="footer-line"></div>
+                            </div>
+                            <div class="footer-link">
+                                <a>Return Policy</a>
+                                <a>Order Status</a>
+                                <a>Free Shipping</a>
+                                <a>15-day Returns</a>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-header-wrapper">
+                                <div class="footer-header">Categories</div>
+                                <div class="footer-line"></div>
+                            </div>
+                            <div class="footer-link">
+                                <a>Bracelets</a>
+                                <a>Earrings</a>
+                                <a>Necklaces</a>
+                                <a>Rings</a>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-header-wrapper">
+                                <div class="footer-header">Contact</div>
+                                <div class="footer-line"></div>
+                            </div>
+                            <div class="footer-link">
+                                <a><i class="fa-solid fa-envelope"></i>customerservice@gleamaura.com</a>
+                                <a><i class="fa-solid fa-phone"></i>+91 XXXXXXXXXX</a>
+                                <a><i class="fa-solid fa-clock"></i>10AM - 9PM</a>
+                                <a class="icon"><i class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2025 GleamAura. All rights reserved.
+                    </div>  
+    </footer>
+    
+    <!--js link-->
+     <script src="script.js"></script>
+     <!--scroll reveal elements-->
+    <script>
+        ScrollReveal({ 
+           reset: true,
+           distance: '20px',
+           duration: 2500,
+           delay: 200
+        });
+
+        //about us//
+        ScrollReveal().reveal('.feature-column', { delay: 300, origin: 'bottom', interval: 600 });
+        ScrollReveal().reveal('.collection .head-c, .Horizontal-line', { delay: 400, origin: 'bottom' });
+        ScrollReveal().reveal('.collection .collection-card', { delay: 500, origin: 'bottom', interval:800 });
+        ScrollReveal().reveal('.Feature-collection h1, .Horizontal-line2', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.new-arrivals h1, h4', { delay: 500, origin: 'bottom', interval: 600 });
+        ScrollReveal().reveal('.new-arrivals .card', { delay: 700, origin: 'bottom', interval: 700 });
+        ScrollReveal().reveal('.multi-container h1, .horizontal-line2', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.multi-container .offer1, .gift2', { delay: 600, origin: 'bottom', interval: 700 });
+        ScrollReveal().reveal('.gold-section', { delay: 400, origin: 'bottom'});
+        ScrollReveal().reveal('.clip-card h1, .horizontal-line3', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.clip-card .clip-card-wrap', { delay: 600, origin: 'right', interval: 800 });
+        ScrollReveal().reveal('.connect h1', { delay: 300, origin: 'bottom'});
+        ScrollReveal().reveal('.connect h4', { delay: 400, origin: 'bottom'});
+        ScrollReveal().reveal('.c-bg', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.c-set .connect-card', { delay: 600, origin: 'bottom', interval:700});
+        ScrollReveal().reveal('.newsletter-section', { delay: 800, origin: 'right'});
+     
+
+
+    </script>
+</body>
+</html>
